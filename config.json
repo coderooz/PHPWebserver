@@ -1,0 +1,12 @@
+{
+    "websites": [
+        {
+            "port": 8000,
+            "documentRoot": "htdocs/website1"
+        },
+        {
+            "port": 8080,
+            "documentRoot": "htdocs/website2"
+        }
+    ]
+}

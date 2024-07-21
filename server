@@ -1,0 +1,13 @@
+#!/usr/bin/env php
+<?php
+
+require 'vendor/autoload.php';
+
+use Coderooz\PhpWebServer\Server;
+
+$configFile = __DIR__ . '/config.json';
+
+$server = new Server($configFile);
+$server->listen(function ($request) {
+    // Request handling logic
+});
